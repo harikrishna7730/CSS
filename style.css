@@ -1,0 +1,94 @@
+table,tr,td{
+    border: 1px solid black;
+    color: white;
+}
+td{
+     padding: 60px 100px;
+     width: 10%;
+     text-align: center;
+     font-family: 'DM Serif Display', serif;
+     font-family: 'Kalnia', serif;
+}
+h1{
+    text-align: center;
+    color: rgb(37, 33, 20);
+    background-color: aqua;
+    border: 2px solid black;
+}
+.p1{
+    background-color: blue;
+
+}
+.p2{
+    background-color: red;
+
+}
+.p3{
+    background-color: green;
+}
+.p4{
+    background-color: yellow;
+    color: black;
+}
+.p5{
+    background-color: black;
+
+}
+.p6{
+    background-color:aqua ;
+    color: black;
+}
+.p7{
+    background-color:grey ;
+}
+.p8{
+    background-color: silver;
+    color: black;
+}
+.p9{
+    background-color: orange;
+}
+.p10{
+    background-color: bisque;
+    color: black;
+}
+.p11{
+    background-color: darkcyan;
+}
+.p12{
+    background-color: darkkhaki;
+}
+#a1{
+    background-color: coral;
+}
+#a2{
+    background-color: beige;
+    color: black;
+}
+#a3{
+    background-color: cornsilk;
+    color: black;
+}
+#a4{
+    background-color: ghostwhite;
+    color: black;
+}
+#a5{
+    background-color: indigo;
+}
+#a6{
+    background-color: lime;
+    color: black;
+}
+#a7{
+    background-color: linen;
+    color: black;
+}
+#a8{
+    background-color: maroon;
+
+}
+#a9{
+    background-color: mistyrose;
+    color: black;
+}
