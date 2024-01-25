@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            background-color: rgb(94, 217, 217);
+            width: 420px;
+            padding: 50px;
+            margin: 150px;
+            font-size: 30px;
+            letter-spacing: 6px;
+        }
+        div span{
+            display: inline-block;
+            animation: drop 0.5s forwards;
+            opacity: 0;
+        }
+        @keyframes drop {
+            0%{
+                transform: translateY(-20px);
+                opacity: 0;
+            }
+            50%{
+                transform: translateY(-10px);
+                color: red;
+            }
+            100%{
+                transform: translateY(0px);
+                opacity: 1;
+                transition: ;
+            }
+        }
+        .box .a1{
+            animation-delay: 0.5s ;
+        }
+        .box .a2{
+            animation-delay: 1s;
+        }
+        .box .a3{
+            animation-delay: 1.5s;
+        }
+        .box .a4{
+            animation-delay: 2s;
+        }
+        .box .a5{
+            animation-delay: 2.5s;
+        }
+        .box .a6{
+            animation-delay: 3s;
+        }
+        .box .a7{
+            animation-delay: 3.5s;
+        }
+        .box .a8{
+            animation-delay: 4s;
+        }
+        .box .a9{
+            animation-delay: 4.5s;
+        }
+        .box .a10{
+            animation-delay: 5s;
+        }
+        .box .a11{
+            animation-delay: 5.5s;
+        }
+        .box .a12{
+            animation-delay: 0.5s;
+        }
+    </style>
+</head>
+<body>
+<div class="box">
+    <span>H</span>
+    <span class="a2">A</span>
+    <span class="a3">R</span>
+    <span class="a4">I </span>
+    <span class="a5">K </span>
+    <span class="a6">R </span>
+    <span class="a7">I </span>
+    <span class="a8">S </span>
+    <span class="a9">H </span>
+    <span class="a10">N </span>
+    <span class="a11">A </span>
+</div>
+</body>
+</html>
